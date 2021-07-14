@@ -1,0 +1,17 @@
+Jan 7 03:28:31 ==DUPLICATOR INSTALLER BOOTSTRAP v3.7.3.1==
+Jan 7 03:28:31 ----------------------------------------------------
+Jan 7 03:28:31 Installer bootstrap start
+Jan 7 03:28:31 Using archive /home/phukiendienthoai.giaodienwebmau.com/public_html/20200903_mauwebsitephukiendienthoai_0b91862277b85b791490_20200903145342_archive.daf
+Jan 7 03:28:31 Going to overwrite installer directory since either in overwrite mode or installer directory doesn't exist
+Jan 7 03:28:31 Ready to extract the installer
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer to 755<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/api to 755<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/assets to 755<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/classes to 755<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/ctrls to 755<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/lib to 755<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/views to 755<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/archive.cfg to 644<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/index.php to 644<br/>
+Jan 7 03:28:31 Set permissions of /home/phukiendienthoai.giaodienwebmau.com/public_html/dup-installer/main.installer.php to 644<br/>
+Jan 7 03:28:31 No detected errors so redirecting to the main installer. Main Installer URI = http://phukiendienthoai.giaodienwebmau.com/dup-installer/main.installer.php?archive=%2Fhome%2Fphukiendienthoai.giaodienwebmau.com%2Fpublic_html%2F20200903_mauwebsitephukiendienthoai_0b91862277b85b791490_20200903145342_archive.daf&bootloader=installer.php&

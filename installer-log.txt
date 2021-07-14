@@ -1,0 +1,253 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:28:36
+* VERSION: 3.7.3.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.4.13 | SAPI: fpm-fcgi
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		nginx/1.18.0
+DOC ROOT:	/home/phukiendienthoai.giaodienwebmau.com/public_html
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://phukiendienthoai.giaodienwebmau.com/dup-installer/main.installer.php?archive=%2Fhome%2Fphukiendienthoai.giaodienwebmau.com%2Fpublic_html%2F20200903_mauwebsitephukiendienthoai_0b91862277b85b791490_20200903145342_archive.daf&bootloader=installer.php&
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20200903_mauwebsitephukiendienthoai_0b91862277b85b791490_20200903145342_archive.daf
+SIZE:	64.21MB
+
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 03:28:36 - RUNTIME: 0.0002 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 03:28:51
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+
+WARNING: The database script is '1.66MB' in size.  The PHP memory allocation is set
+at '5000M'.  There is a high possibility that the installer script will fail with
+a memory allocation error when trying to load the database.sql file.  It is
+recommended to increase the 'memory_limit' setting in the php.ini config file.
+see: https://snapcreek.com/duplicator/docs/faqs-tech#faq-trouble-056-q 
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.0.38 -- Build Server: 10.4.13
+FILE SIZE:	database.sql (1.66MB) - installer-data.sql (1.66MB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE-GLOBAL:	NOT_SET
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+NEW SQL FILE:	[/home/phukiendienthoai.giaodienwebmau.com/public_html/installer-data.sql]
+COLLATE FB:	Off
+DB CHUNKING:	disabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+
+NOTICE: This servers version [10.0.38] is less than the build version [10.4.13].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** database error write 'Index column size too large. The maximum column size is 767 bytes.' - [sql=CREATE TABLE `wp_duplicator_pro_entities` (
+  `id` int(11) NOT NULL AUTO_IN...]
+**ERROR** database error write 'Table 'phukiendienthoai.wp_duplicator_pro_entities' doesn't exist' - [sql=
+--
+-- Dumping data for table `wp_duplicator_pro_entities`
+--
+
+LOCK TABLES ...]
+**ERROR** database error write 'Table 'phukiendienthoai.wp_duplicator_pro_entities' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_duplicator_pro_entities` DISABLE KEYS */...]
+**ERROR** database error write 'Table 'phukiendienthoai.wp_duplicator_pro_entities' doesn't exist' - [sql=INSERT INTO `wp_duplicator_pro_entities` VALUES (1,'DUP_PRO_Global_Entity',...]
+**ERROR** database error write 'Table 'phukiendienthoai.wp_duplicator_pro_entities' doesn't exist' - [sql=/*!40000 ALTER TABLE `wp_duplicator_pro_entities` ENABLE KEYS */...]
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	5
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	424
+
+wp_actionscheduler_actions: (5)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (15)
+wp_commentmeta: (16)
+wp_comments: (10)
+wp_duplicator_pro_packages: (0)
+wp_links: (0)
+wp_options: (327)
+wp_postmeta: (1489)
+wp_posts: (160)
+wp_term_relationships: (180)
+wp_term_taxonomy: (70)
+wp_termmeta: (107)
+wp_terms: (70)
+wp_usermeta: (38)
+wp_users: (1)
+wp_wc_admin_note_actions: (8)
+wp_wc_admin_notes: (8)
+wp_wc_category_lookup: (47)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (18)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (4)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (3)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_woof_query_cache: (0)
+wp_yoast_seo_links: (199)
+wp_yoast_seo_meta: (737)
+Removed '172' cache/transient rows
+
+INSERT DATA RUNTIME: 0.6115 sec.
+STEP-2 COMPLETE @ 03:28:52 - RUNTIME: 0.6627 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:28:55
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+Subsite id=-1
+wp_actionscheduler_actions~ (5)
+wp_actionscheduler_claims^ (0)
+wp_actionscheduler_groups~ (2)
+wp_actionscheduler_logs~ (15)
+wp_commentmeta~ (16)
+wp_comments~ (10)
+wp_duplicator_pro_packages^ (0)
+wp_links^ (0)
+wp_options~ (327)
+wp_postmeta~ (1489)
+wp_posts~ (160)
+wp_term_relationships~ (180)
+wp_term_taxonomy~ (70)
+wp_termmeta~ (107)
+wp_terms~ (70)
+wp_usermeta~ (38)
+wp_users~ (1)
+wp_wc_admin_note_actions~ (8)
+wp_wc_admin_notes~ (8)
+wp_wc_category_lookup~ (47)
+wp_wc_customer_lookup^ (0)
+wp_wc_download_log^ (0)
+wp_wc_order_coupon_lookup^ (0)
+wp_wc_order_product_lookup^ (0)
+wp_wc_order_stats^ (0)
+wp_wc_order_tax_lookup^ (0)
+wp_wc_product_meta_lookup~ (18)
+wp_wc_reserved_stock^ (0)
+wp_wc_tax_rate_classes~ (2)
+wp_wc_webhooks^ (0)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies~ (4)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta^ (0)
+wp_woocommerce_order_items^ (0)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (3)
+wp_woocommerce_shipping_zone_locations^ (0)
+wp_woocommerce_shipping_zone_methods^ (0)
+wp_woocommerce_shipping_zones^ (0)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_woof_query_cache^ (0)
+wp_yoast_seo_links~ (199)
+wp_yoast_seo_meta~ (737)
+Partial off
+--------------------------------------
+Search1:	'/home/u741096652/domains/ninhbinhsite.com/public_html/phukiendienthoai' 
+Change1:	'/home/phukiendienthoai.giaodienwebmau.com/public_html' 
+Search2:	'\/home\/u741096652\/domains\/ninhbinhsite.com\/public_html\/phukiendienthoai' 
+Change2:	'\/home\/phukiendienthoai.giaodienwebmau.com\/public_html' 
+Search3:	'%2Fhome%2Fu741096652%2Fdomains%2Fninhbinhsite.com%2Fpublic_html%2Fphukiendienthoai%2F' 
+Change3:	'%2Fhome%2Fphukiendienthoai.giaodienwebmau.com%2Fpublic_html%2F' 
+Search4:	'\home\u741096652\domains\ninhbinhsite.com\public_html\phukiendienthoai' 
+Change4:	'/home/phukiendienthoai.giaodienwebmau.com/public_html' 
+Search5:	'//phukiendienthoai.ninhbinhsite.com' 
+Change5:	'//phukiendienthoai.giaodienwebmau.com' 
+Search6:	'\/\/phukiendienthoai.ninhbinhsite.com' 
+Change6:	'\/\/phukiendienthoai.giaodienwebmau.com' 
+Search7:	'%2F%2Fphukiendienthoai.ninhbinhsite.com' 
+Change7:	'%2F%2Fphukiendienthoai.giaodienwebmau.com' 
+SCANNED:	Tables:47 	|	 Rows:3516 	|	 Cells:16918 
+UPDATED:	Tables:4 	|	 Rows:308 	|	 Cells:313 
+ERRORS:		0 
+RUNTIME:	0.148800 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/home/phukiendienthoai.giaodienwebmau.com/public_html/wp-config-arc.txt'
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '2' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 03:28:55 - RUNTIME: 0.1545 sec. 
+
+
