@@ -1,4 +1,10 @@
 <?php
+
+//Begin Really Simple SSL session cookie settings
+@ini_set('session.cookie_httponly', true);
+@ini_set('session.cookie_secure', true);
+@ini_set('session.use_only_cookies', true);
+//END Really Simple SSL
 define( 'WP_CACHE', true ); // Added by WP Rocket
 /**
  * The base configuration for WordPress
@@ -21,13 +27,13 @@ define( 'WP_CACHE', true ); // Added by WP Rocket
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', "phukien_db" );
+define( 'DB_NAME', "vuonthan_phukien" );
 
 /** MySQL database username */
-define( 'DB_USER', "root" );
+define( 'DB_USER', "vuonthan_phukien" );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', "" );
+define( 'DB_PASSWORD', "thuydung@1234" );
 
 /** MySQL hostname */
 define( 'DB_HOST', "localhost" );
@@ -78,7 +84,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* That's all, stop editing! Happy publishing. */
 
