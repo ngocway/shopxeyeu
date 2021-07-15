@@ -11,12 +11,6 @@
 	<meta property="fb:app_id" content="506365323750835" />
 	<meta property="fb:admins" content="100001857405260"/>
 
-
-
-
-
-
-
 </head>
 <div class="zalo-chat-widget" data-oaid="1490276756872530886" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
 
