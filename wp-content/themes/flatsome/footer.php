@@ -19,6 +19,6 @@ global $flatsome_opt;
 
 
 <?php wp_footer(); ?>
-<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+
 </body>
 </html>
