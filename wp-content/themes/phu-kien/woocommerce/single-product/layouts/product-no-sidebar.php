@@ -82,7 +82,7 @@
 			?>
 			<?php if(true){?>
 			<div class="thong-so-ky-thuat">
-				<h3 class="tieu-de thong-so">
+				<h3 class="tieu-de thong-so" style = "background: red;">
 					Thông số kỹ thuật
 				</h3>
 				<div class="row-info">
