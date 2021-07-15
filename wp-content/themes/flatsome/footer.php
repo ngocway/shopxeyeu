@@ -16,8 +16,6 @@ global $flatsome_opt;
 
 </footer>
 
-
-
 <?php wp_footer(); ?>
 
 </body>
