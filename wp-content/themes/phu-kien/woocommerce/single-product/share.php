@@ -10,18 +10,18 @@ $khuyen_mai_5=get_field('khuyen_mai_5');
 		Thông tin khuyến mại
 	</h4>
 	<ul>
-		<li><?php the_field('khuyen_mai_1');?></li>
+		<li>- <?php the_field('khuyen_mai_1');?></li>
 		<?php if($khuyen_mai_2){?>
-		<li><?php the_field('khuyen_mai_2');?></li>
+		<li>- <?php the_field('khuyen_mai_2');?></li>
 		<?php }?>
 		<?php if($khuyen_mai_3){?>
-		<li><?php the_field('khuyen_mai_3');?></li>
+		<li>- <?php the_field('khuyen_mai_3');?></li>
 		<?php }?>
 		<?php if($khuyen_mai_4){?>
-		<li><?php the_field('khuyen_mai_4');?></li>
+		<li>- <?php the_field('khuyen_mai_4');?></li>
 		<?php }?>
 		<?php if($khuyen_mai_5){?>
-		<li><?php the_field('khuyen_mai_5');?></li>
+		<li>- <?php the_field('khuyen_mai_5');?></li>
 		<?php }?>
 	</ul>
 </div>
