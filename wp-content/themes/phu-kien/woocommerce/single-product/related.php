@@ -41,7 +41,8 @@ if ( $related_products ) : ?>
     color: #8e0a00;
     border: 1px dashed #FF9800;
     border-radius: 10px;
-			line-height: 22px; font-size:15px"><p style="margin-top:0; font-size:15px; margin-bottom:10px"><b style="color:red">Thông báo chính thức:</b> Ninh Bình Web (thuộc GiuseArt) không hợp tác với bất kỳ ai để bán giao diện Wordpress và cũng không bán ở bất kỳ kênh nào ngoại trừ <a href="https://messenger.com/t/joseph.thien.75" target="blank">Facebook</a> và <a href="https://zalo.me/0972939830" target="blank">zalo</a> chính thức. </p><p style="margin-top:0 ; margin-bottom:10px">Chúng tôi chỉ support cho những khách hàng mua source code chính chủ. Tiền nào của nấy, khách hàng cân nhắc không nên ham rẻ để mua phải source code không rõ nguồn gốc và không có support về sau! Xin cám ơn! </p></div>
+			line-height: 22px; font-size:15px"><p style="margin-top:0; font-size:15px; margin-bottom:10px"><b style="color:red">Thông báo chính thức:</b> Shop Xế Yêu không hợp tác với bất kỳ bên nào khác để bán sản phẩm và cũng không bán ở bất kỳ kênh nào ngoại trừ <a href="https://www.facebook.com/Air-Store-Ph%E1%BB%A5-ki%E1%BB%87n-xe-v%C3%A0-v%C4%83n-ph%C3%B2ng-316976829005368" target="blank">Facebook</a> chính thức. </p><p style="margin-top:0 ; margin-bottom:10px">Chúng tôi sẽ không hỗ trợ giải quyết và bảo hành cho những trường hợp đặt hàng tại nơi khác.</p></div>
+	
 	<div class="related related-products-wrapper product-section">
 		
 		
