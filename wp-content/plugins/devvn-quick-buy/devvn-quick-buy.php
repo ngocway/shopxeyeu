@@ -147,8 +147,8 @@ if ( is_multisite() || in_array( 'woocommerce/woocommerce.php', apply_filters( '
                         if(!$small_link):
                             ?>
                             <a href="javascript:void(0);" class="devvn_buy_now devvn_buy_now_style" data-id="<?php echo $this_product->get_id(); ?>">
-                                <strong><?php echo ($button_text1) ? $button_text1 : $quickbuy_settings['button_text1']; ?></strong>
-                                <span><?php echo ($button_text2) ? $button_text2 : $quickbuy_settings['button_text2']; ?></span>
+                                <strong style= "font-size: 20px;"><?php echo ($button_text1) ? $button_text1 : $quickbuy_settings['button_text1']; ?></strong>
+                                <span style= "font-size: 14px;"><?php echo ($button_text2) ? $button_text2 : $quickbuy_settings['button_text2']; ?></span>
                             </a>
                             <?php
                             if ($view) :
