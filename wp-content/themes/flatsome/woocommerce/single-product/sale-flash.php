@@ -21,7 +21,7 @@ if($badge_style == 'style2') $badge_style = 'square';
 if($badge_style == 'style3') $badge_style = 'frame';
 
 ?>
-<div class="badge-container is-larger absolute left top z-1">
+<div class="badge-container is-larger absolute right top z-1">
 <?php if ( $product->is_on_sale() ) : ?>
 	<?php
 		// Default Sale Bubble Text
