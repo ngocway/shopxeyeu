@@ -11,8 +11,8 @@ $khuyen_mai_5=get_field('khuyen_mai_5');
 		Thông tin khuyến mại
 	</h4>
 	<ul>
-		<i class="fas fa-chevron-down">sadassdsa</i>
-		<li>- <?php the_field('khuyen_mai_1');?></li>
+		
+		<li class="fas fa-chevron-down">- <?php the_field('khuyen_mai_1');?></li>
 		<?php if($khuyen_mai_2){?>
 		<li>- <?php the_field('khuyen_mai_2');?></li>
 		<?php }?>
