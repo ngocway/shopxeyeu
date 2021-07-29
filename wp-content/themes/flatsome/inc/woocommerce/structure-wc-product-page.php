@@ -35,7 +35,7 @@ function flatsome_product_upsell_sidebar(){
     }
 }
 add_action('flatsome_before_product_sidebar','flatsome_product_upsell_sidebar', 1);
-
+echo do_shortcode('[share]');
 /* Add Share to product description */
 if(!function_exists('flatsome_product_share')) {
   function flatsome_product_share() {
