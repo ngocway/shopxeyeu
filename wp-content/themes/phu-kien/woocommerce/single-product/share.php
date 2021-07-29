@@ -10,9 +10,8 @@ $khuyen_mai_5=get_field('khuyen_mai_5');
 	<h4>
 		Thông tin khuyến mại
 	</h4>
-	<ul>
-		
-		<li class="fas fa-chevron-down">- <?php the_field('khuyen_mai_1');?></li>
+	<ul>	
+		<li>- <?php the_field('khuyen_mai_1');?></li>
 		<?php if($khuyen_mai_2){?>
 		<li>- <?php the_field('khuyen_mai_2');?></li>
 		<?php }?>
