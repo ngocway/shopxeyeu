@@ -3,7 +3,6 @@ $khuyen_mai_2=get_field('khuyen_mai_2');
 $khuyen_mai_3=get_field('khuyen_mai_3');
 $khuyen_mai_4=get_field('khuyen_mai_4');
 $khuyen_mai_5=get_field('khuyen_mai_5');
-print_r($khuyen_mai_1);
 ?>
 
 <?php if($khuyen_mai_1) {?>
