@@ -54,8 +54,8 @@ function title_shortcode( $atts, $content = null ){
   if($color){
     $css_args_title[] = array( 'attribute' => 'color', 'value' => $color);
   }
-
-  return '<div class="'.$classes.'" '.get_shortcode_inline_css($css_args).'><'. $tag_name . ' class="section-title section-title-'.$style.'"><b></b><h3 class="section-title-main" '.get_shortcode_inline_css($css_args_title).'>'.$icon.$text.$small_text.'</h3><b></b>'.$link_output.'</' . $tag_name .'></div>';
+  print_r($style);
+  return '<div class="'.$classes.'" '.get_shortcode_inline_css($css_args).'><'. $tag_name . ' class="section-title section-title-'.$style.'"><b></b><h2 class="section-title-main" '.get_shortcode_inline_css($css_args_title).'>'.$icon.$text.$small_text.'</h2><b></b>'.$link_output.'</' . $tag_name .'></div>';
 }
 add_shortcode('title', 'title_shortcode');
 
