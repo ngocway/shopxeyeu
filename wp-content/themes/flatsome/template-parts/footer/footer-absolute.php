@@ -12,7 +12,7 @@ $flatsome_footer_right_text = trim( get_theme_mod( 'footer_right_text' ) );
 
 ?>
 <div>
-<p style = "font-size: 12px;">Bản quyền và nội dung thuộc quyền sở hữu của xesangxin.com.
-Tất cả mọi sao chép phải được sự đồng ý bằng văn bản của xesangxin.com
+<p style = "font-size: 12px;">Bản quyền và nội dung thuộc quyền sở hữu của shopxeyeu.com
+Tất cả mọi sao chép phải được sự đồng ý bằng văn bản của shopxeyeu.com
 </p>
 </div>
