@@ -136,19 +136,7 @@
                      <?php }?>
                   </div>
                   <?php }?>
-                  <?php
-                     do_action('flatsome_before_product_sidebar');
-                     /**
-                      * woocommerce_sidebar hook
-                      *
-                      * @hooked woocommerce_get_sidebar - 10
-                      */
-                     if (is_active_sidebar( 'product-sidebar' ) ) {
-                     	dynamic_sidebar('product-sidebar');
-                     } else if(is_active_sidebar( 'shop-sidebar' )) {
-                     	dynamic_sidebar('shop-sidebar');
-                     }
-                     ?>
+                  
                </div>
             </div>
          </div>
@@ -174,6 +162,19 @@
                <?php if ( is_active_sidebar( 'sidebar-product-2' ) ) : ?>
                <?php dynamic_sidebar( 'sidebar-product-2' ); ?>
                <?php endif; ?>
+			   <?php
+                     do_action('flatsome_before_product_sidebar');
+                     /**
+                      * woocommerce_sidebar hook
+                      *
+                      * @hooked woocommerce_get_sidebar - 10
+                      */
+                     if (is_active_sidebar( 'product-sidebar' ) ) {
+                     	dynamic_sidebar('product-sidebar');
+                     } else if(is_active_sidebar( 'shop-sidebar' )) {
+                     	dynamic_sidebar('shop-sidebar');
+                     }
+                     ?>
             </div>
       </div>
    </div>
