@@ -47,8 +47,7 @@ $panel_count = 0;
 
 if ( ! empty( $product_tabs ) ) : ?>
 	
-	<div class="row">
-		<div class = "container">
+	<div class="woocommerce-tabs wc-tabs-wrapper container tabbed-content">
 		<ul class="tabs wc-tabs product-tabs small-nav-collapse <?php flatsome_product_tabs_classes(); ?>" role="tablist">
 			<?php foreach ( $product_tabs as $key => $product_tab ) : ?>
 				
@@ -76,7 +75,6 @@ if ( ! empty( $product_tabs ) ) : ?>
 
 			<?php do_action( 'woocommerce_product_after_tabs' ); ?>
 		</div>
-		</div>
 	</div>
 	<?php if( comments_open() ): ?>
 			<div id="facebook-comments">
@@ -84,7 +82,7 @@ if ( ! empty( $product_tabs ) ) : ?>
 			<fb:comments xid="<?php the_ID(); ?>" num_posts="5" width="100%"></fb:comments>
 			</div>
 	<?php endif; // end comments_open() ?>
-	<div class="zalo-comment-plugin"  data-appid="1151066986091407579" data-size="5"></div>
+
 		
 
 <?php endif; ?>
