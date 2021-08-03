@@ -36,29 +36,7 @@
                   do_action( 'woocommerce_single_product_summary' );
                   ?>
             </div>
-            <div class="col large-3">
-               <?php if ( is_active_sidebar( 'sidebar-product-2' ) ) : ?>
-               <?php dynamic_sidebar( 'sidebar-product-2' ); ?>
-               <?php endif; ?>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="product-footer">
-      <div class="row">
-         <div class="large-9 col">
-            <?php
-               /**
-                * woocommerce_after_single_product_summary hook
-                *
-                * @hooked woocommerce_output_product_data_tabs - 10
-                * @hooked woocommerce_upsell_display - 15
-                * @hooked woocommerce_output_related_products - 20
-                */
-               do_action( 'woocommerce_after_single_product_summary' );
-               ?>
-         </div>
-         <div class="large-3 col">
+			<div class="large-3 col">
             <div id="product-sidebar">
                <div class="sidebar-inner">
                   <?php 
@@ -174,6 +152,29 @@
                </div>
             </div>
          </div>
+            
+         </div>
+      </div>
+   </div>
+   <div class="product-footer">
+      <div class="row">
+         <div class="large-9 col">
+            <?php
+               /**
+                * woocommerce_after_single_product_summary hook
+                *
+                * @hooked woocommerce_output_product_data_tabs - 10
+                * @hooked woocommerce_upsell_display - 15
+                * @hooked woocommerce_output_related_products - 20
+                */
+               do_action( 'woocommerce_after_single_product_summary' );
+               ?>
+         </div>
+         <div class="col large-3">
+               <?php if ( is_active_sidebar( 'sidebar-product-2' ) ) : ?>
+               <?php dynamic_sidebar( 'sidebar-product-2' ); ?>
+               <?php endif; ?>
+            </div>
       </div>
    </div>
 </div>
