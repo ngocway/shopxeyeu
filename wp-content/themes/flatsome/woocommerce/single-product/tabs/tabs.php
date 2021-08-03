@@ -48,7 +48,7 @@ $panel_count = 0;
 if ( ! empty( $product_tabs ) ) : ?>
 	
 	<div class="container">
-		<div class = "container">
+		
 		<ul class="tabs wc-tabs product-tabs small-nav-collapse <?php flatsome_product_tabs_classes(); ?>" role="tablist">
 			<?php foreach ( $product_tabs as $key => $product_tab ) : ?>
 				
@@ -76,7 +76,7 @@ if ( ! empty( $product_tabs ) ) : ?>
 
 			<?php do_action( 'woocommerce_product_after_tabs' ); ?>
 		</div>
-		</div>
+		
 	</div>
 	<?php if( comments_open() ): ?>
 			<div id="facebook-comments">
