@@ -51,7 +51,7 @@
 
   <div class="product-footer">
   	<div class="container">
-		<div class="large-9">
+		<div class="col-9">
 			
 
     		<?php
@@ -65,7 +65,7 @@
     			do_action( 'woocommerce_after_single_product_summary' );
     		?>
 		</div>
-		<div class="large-3">
+		<div class="col-3">
 			
     	<div id="product-sidebar">
     		<div class="sidebar-inner">
