@@ -51,136 +51,167 @@
 
   <div class="product-footer">
   	<div class="container">
-		<div class="row">
-				<div class="col-9">
-					<?php
-						/**
-						 * woocommerce_after_single_product_summary hook
-						 *
-						 * @hooked woocommerce_output_product_data_tabs - 10
-						 * @hooked woocommerce_upsell_display - 15
-						 * @hooked woocommerce_output_related_products - 20
-						 */
-						do_action( 'woocommerce_after_single_product_summary' );
-					?>
-				</div>
-				<div class="col-3">
-					
-				<div id="product-sidebar">
-					<div class="sidebar-inner">
-						<?php 
-					$kich_thuoc_xe=get_field('kich-thuoc-xe');
-					$kich_thuoc_san_pham=get_field('kich-thuoc-san-pham');
-					$dien_ap=get_field('dien-ap');
-					$nhan_hieu=get_field('nhan-hieu');
-					$nuoc_san_xuat=get_field('nuoc-san-xuat');
-					$dong_xe=get_field('dong-xe');
-					$chat_lieu=get_field('chat-lieu');
-					$mau_sac=get_field('mau-sac');
-					$thong_so_khac=get_field('thong-so-khac');
-					?>
-					<?php if(true){?>
-					<div class="thong-so-ky-thuat">
-						<h3 class="tieu-de thong-so" style = "background: #d51f16; color: white;">
-							Thông số kỹ thuật
-						</h3>
-						<div class="row-info">
-							<div class="left">
-								Cỡ xe phù hợp
-							</div>
-							<div class="right">
-								<?php echo $kich_thuoc_xe;?>
-							</div>
-						</div>
-						<?php if($dien_ap){?>
-						<div class="row-info">
-							<div class="left">
-								Điện áp xe
-							</div>
-							<div class="right">
-								<?php echo $dien_ap;?>
-							</div>
-						</div>
-						<?php }?>
-						<?php if($nhan_hieu){?>
-						<div class="row-info">
-							<div class="left">
-								Nhãn hiệu sản phẩm
-							</div>
-							<div class="right">
-								<?php echo $nhan_hieu;?>
-							</div>
-						</div>
-						<?php }?>
-						<?php if($nuoc_san_xuat){?>
-						<div class="row-info">
-							<div class="left">
-								Nước sản xuất
-							</div>
-							<div class="right">
-								<?php echo $nuoc_san_xuat;?>
-							</div>
-						</div>
-						<?php }?>
-						<?php if($dong_xe){?>
-						<div class="row-info">
-							<div class="left">
-								Dòng xe phù hợp
-							</div>
-							<div class="right">
-								<?php echo $dong_xe;?>
-							</div>
-						</div>
-						<?php }?>
-						<?php if($chat_lieu){?>
-						<div class="row-info">
-							<div class="left">
-								Chất liệu sản phẩm
-							</div>
-							<div class="right">
-								<?php echo $chat_lieu;?>
-							</div>
-						</div>
-						<?php }?>
-						<?php if($mau_sac){?>
-						<div class="row-info">
-							<div class="left">
-								Màu sắc sản phẩm
-							</div>
-							<div class="right">
-								<?php echo $mau_sac;?>
-							</div>
-						</div>
-						<?php }?>
-						<?php if($thong_so_khac){?>
-						<div class="row-info">
-							<div class="left">
-								Thông số khác
-							</div>
-							<div class="right">
-								<?php echo $thong_so_khac;?>
-							</div>
-						</div>
-						<?php }?>
-						
+		<div class="large-9">
+			
+
+    		<?php
+    			/**
+    			 * woocommerce_after_single_product_summary hook
+    			 *
+    			 * @hooked woocommerce_output_product_data_tabs - 10
+    			 * @hooked woocommerce_upsell_display - 15
+    			 * @hooked woocommerce_output_related_products - 20
+    			 */
+    			do_action( 'woocommerce_after_single_product_summary' );
+    		?>
+		</div>
+		<div class="large-3">
+			
+    	<div id="product-sidebar">
+    		<div class="sidebar-inner">
+				<?php 
+			$bo_nho_trong=get_field('bo_nho_trong');
+			$camera_chinh=get_field('camera_chinh');
+			$camera_phu=get_field('camera_phu');
+			$cpu=get_field('cpu');
+			$do_phan_giai_man_hinh=get_field('do_phan_giai_man_hinh');
+			$dung_luong_pin=get_field('dung_luong_pin');
+			$he_dieu_hanh=get_field('he_dieu_hanh');
+			$kich_thuoc_man_hinh=get_field('kich_thuoc_man_hinh');
+			$ram=get_field('ram');
+			$the_sim=get_field('the_sim');
+			$the_nho=get_field('the_nho');
+			?>
+			<?php if($bo_nho_trong){?>
+			<div class="thong-so-ky-thuat">
+				<h3 class="tieu-de thong-so">
+					Thông số kỹ thuật
+				</h3>
+				<div class="row-info">
+					<div class="left">
+						Bộ nhớ trong
 					</div>
-					<?php }?>
-						<?php
-							do_action('flatsome_before_product_sidebar');
-							/**
-							 * woocommerce_sidebar hook
-							 *
-							 * @hooked woocommerce_get_sidebar - 10
-							 */
-							if (is_active_sidebar( 'product-sidebar' ) ) {
-								dynamic_sidebar('product-sidebar');
-							} else if(is_active_sidebar( 'shop-sidebar' )) {
-								dynamic_sidebar('shop-sidebar');
-							}
-						?>
+					<div class="right">
+						<?php echo $bo_nho_trong;?>
 					</div>
 				</div>
+				<?php if($camera_chinh){?>
+				<div class="row-info">
+					<div class="left">
+						Camera chính
+					</div>
+					<div class="right">
+						<?php echo $camera_chinh;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($camera_phu){?>
+				<div class="row-info">
+					<div class="left">
+						Camera phụ
+					</div>
+					<div class="right">
+						<?php echo $camera_phu;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($cpu){?>
+				<div class="row-info">
+					<div class="left">
+						CPU
+					</div>
+					<div class="right">
+						<?php echo $cpu;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($do_phan_giai_man_hinh){?>
+				<div class="row-info">
+					<div class="left">
+						Độ phân giải màn hình
+					</div>
+					<div class="right">
+						<?php echo $do_phan_giai_man_hinh;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($dung_luong_pin){?>
+				<div class="row-info">
+					<div class="left">
+						Dung lượng pin
+					</div>
+					<div class="right">
+						<?php echo $dung_luong_pin;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($he_dieu_hanh){?>
+				<div class="row-info">
+					<div class="left">
+						Hệ điều hành
+					</div>
+					<div class="right">
+						<?php echo $he_dieu_hanh;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($kich_thuoc_man_hinh){?>
+				<div class="row-info">
+					<div class="left">
+						Kích thước màn hình
+					</div>
+					<div class="right">
+						<?php echo $kich_thuoc_man_hinh;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($ram){?>
+				<div class="row-info">
+					<div class="left">
+						Ram
+					</div>
+					<div class="right">
+						<?php the_field('ram');?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($the_sim){?>
+				<div class="row-info">
+					<div class="left">
+						Thẻ sim
+					</div>
+					<div class="right">
+						<?php echo $the_sim;?>
+					</div>
+				</div>
+				<?php }?>
+				<?php if($the_nho){?>
+				<div class="row-info">
+					<div class="left">
+						Thẻ nhớ
+					</div>
+					<div class="right">
+						<?php echo $the_nho;?>
+					</div>
+				</div>
+				<?php }?>
 			</div>
+			<?php }?>
+    			<?php
+    				do_action('flatsome_before_product_sidebar');
+    				/**
+    				 * woocommerce_sidebar hook
+    				 *
+    				 * @hooked woocommerce_get_sidebar - 10
+    				 */
+    				if (is_active_sidebar( 'product-sidebar' ) ) {
+    					dynamic_sidebar('product-sidebar');
+    				} else if(is_active_sidebar( 'shop-sidebar' )) {
+    					dynamic_sidebar('shop-sidebar');
+    				}
+    			?>
+    		</div>
+    	</div>
 		</div>
     </div>
   </div>
