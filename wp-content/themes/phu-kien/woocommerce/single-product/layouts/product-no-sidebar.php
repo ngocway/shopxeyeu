@@ -39,7 +39,7 @@
                   do_action( 'woocommerce_single_product_summary' );
                   ?>
             </div>
-            <div class="col large-3">
+            <div class="col large-2">
                <?php if ( is_active_sidebar( 'sidebar-product-2' ) ) : ?>
                <?php dynamic_sidebar( 'sidebar-product-2' ); ?>
                <?php endif; ?>
