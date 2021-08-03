@@ -20,6 +20,7 @@
                <i class="fa fa-tags" aria-hidden="true"></i><span class="label ma-hang">Mã hàng (SKU): <?php echo get_post_meta( get_the_ID(), '_sku', true ); ?></span> <i class="fa fa-folder"></i><span class="label danh-muc"><?php global $post, $product; $cat_count = sizeof( get_the_terms( $post->ID, 'product_cat' ) ); echo $product->get_categories( ', ', '<span class="posted_in">' . _n( 'Category:', 'Categories:', $cat_count, 'woocommerce' ) . ' ', '</span>' ); ?></span>
             </div>
 			<div class="container">
+				<div class = "row">
 				<div class="col-sm-6 col-md-3">
 				<?php
 					/**
@@ -41,6 +42,7 @@
 				<?php dynamic_sidebar( 'sidebar-product-2' ); ?>
 				<?php endif; ?>
 				</div>
+			</div>
 			</div>	
          </div>
       </div>
