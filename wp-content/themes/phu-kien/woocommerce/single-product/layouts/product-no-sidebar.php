@@ -19,10 +19,7 @@
             <div class="dong-thong-tin">
                <i class="fa fa-tags" aria-hidden="true"></i><span class="label ma-hang">Mã hàng (SKU): <?php echo get_post_meta( get_the_ID(), '_sku', true ); ?></span> <i class="fa fa-folder"></i><span class="label danh-muc"><?php global $post, $product; $cat_count = sizeof( get_the_terms( $post->ID, 'product_cat' ) ); echo $product->get_categories( ', ', '<span class="posted_in">' . _n( 'Category:', 'Categories:', $cat_count, 'woocommerce' ) . ' ', '</span>' ); ?></span>
             </div>
-			<?php 
-                $kich_thuoc = window.screen.width;
-				echo $kich_thuoc;
-			?>
+			
             <div class="col large-9">
                <?php
                   /**
@@ -39,7 +36,7 @@
                   do_action( 'woocommerce_single_product_summary' );
                   ?>
             </div>
-            <div class="col large-2">
+            <div class="col large-3">
                <?php if ( is_active_sidebar( 'sidebar-product-2' ) ) : ?>
                <?php dynamic_sidebar( 'sidebar-product-2' ); ?>
                <?php endif; ?>
@@ -49,7 +46,7 @@
    </div>
    <div class="product-footer">
       <div class="container">
-         <div class="large-9">
+         <div class="large-5">
             <?php
                /**
                 * woocommerce_after_single_product_summary hook
@@ -61,7 +58,7 @@
                do_action( 'woocommerce_after_single_product_summary' );
                ?>
          </div>
-         <div class="large-3">
+         <div class="large-2">
             <div id="product-sidebar">
                <div class="sidebar-inner">
                   <?php 
