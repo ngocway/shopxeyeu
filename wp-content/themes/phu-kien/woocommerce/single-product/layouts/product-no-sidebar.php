@@ -46,7 +46,7 @@
    </div>
    <div class="product-footer">
       <div class="row">
-         <div class="large-5 col">
+         <div class="large-9 col">
             <?php
                /**
                 * woocommerce_after_single_product_summary hook
@@ -58,7 +58,7 @@
                do_action( 'woocommerce_after_single_product_summary' );
                ?>
          </div>
-         <div class="large-2 col">
+         <div class="large-3 col">
             <div id="product-sidebar">
                <div class="sidebar-inner">
                   <?php 
