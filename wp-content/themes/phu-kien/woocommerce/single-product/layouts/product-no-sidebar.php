@@ -45,7 +45,7 @@
       </div>
    </div>
    <div class="product-footer">
-      <div class="container">
+      <div class="row">
          <div class="large-5 col">
             <?php
                /**
